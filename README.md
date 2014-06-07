@@ -12,9 +12,13 @@ Compiling requirements
 A [Code::Blocks](http://www.codeblocks.org/) workspace is distributed ready to compile.
 
 This game requires the following libraries:
-	* SDL-2.0
-	* SDL_image-2.0
-	* SDL_mixer-2.0
-	* SDL_ttf-2.0
+
+   * SDL-2.0
+
+   * SDL_image-2.0
+
+   * SDL_mixer-2.0
+
+   * SDL_ttf-2.0
 
 DLL binaries are redistributed in the bin/ folder.
