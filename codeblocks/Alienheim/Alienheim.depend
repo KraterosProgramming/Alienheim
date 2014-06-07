@@ -1,0 +1,360 @@
+# depslib dependency file v1.0
+1401764073 source:c:\users\eric\documents\github\alienheim\src\alien.cpp
+	"Alien.h"
+	"App.h"
+	"Sector.h"
+	<algorithm>
+	<iostream>
+
+1401744018 c:\users\eric\documents\github\alienheim\src\alien.h
+	<string>
+	<SDL2/SDL_mixer.h>
+	"Image.h"
+	"Attack.h"
+
+1401564633 c:\users\eric\documents\github\alienheim\src\image.h
+	<SDL2/SDL.h>
+	<string>
+
+1401751908 c:\users\eric\documents\github\alienheim\src\attack.h
+	"EffectInstance.h"
+	<SDL2/SDL_mixer.h>
+
+1401571190 c:\users\eric\documents\github\alienheim\src\effectinstance.h
+	"Object.h"
+	"Effect.h"
+
+1401568829 c:\users\eric\documents\github\alienheim\src\object.h
+	<SDL2/SDL.h>
+
+1401564561 c:\users\eric\documents\github\alienheim\src\effect.h
+	"Image.h"
+	<vector>
+
+1401745022 c:\users\eric\documents\github\alienheim\src\app.h
+	<SDL2/SDL.h>
+	<map>
+	<string>
+	"DataBase.h"
+	"Character.h"
+	"Alien.h"
+	"Sector.h"
+
+1401744597 c:\users\eric\documents\github\alienheim\src\database.h
+	"Scene.h"
+	"Image.h"
+	"Weapon.h"
+	"Event.h"
+	"Alien.h"
+	"Effect.h"
+	"Sector.h"
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_mixer.h>
+	<map>
+	<string>
+
+1401758631 c:\users\eric\documents\github\alienheim\src\scene.h
+	"Object.h"
+	"Button.h"
+	"Bar.h"
+	"Label.h"
+	"Picture.h"
+	"EffectInstance.h"
+	<vector>
+	<map>
+
+1401425185 c:\users\eric\documents\github\alienheim\src\button.h
+	"Object.h"
+	"Image.h"
+	"Behavior.h"
+
+1400805453 c:\users\eric\documents\github\alienheim\src\behavior.h
+	<string>
+
+1400603487 c:\users\eric\documents\github\alienheim\src\bar.h
+	"Object.h"
+
+1400800137 c:\users\eric\documents\github\alienheim\src\label.h
+	"Object.h"
+	"Image.h"
+
+1400795119 c:\users\eric\documents\github\alienheim\src\picture.h
+	"Object.h"
+	"Image.h"
+
+1401743486 c:\users\eric\documents\github\alienheim\src\weapon.h
+	"Image.h"
+	"Attack.h"
+	<string>
+	<SDL2/SDL_mixer.h>
+
+1401743440 c:\users\eric\documents\github\alienheim\src\event.h
+	"Scene.h"
+	"Change.h"
+	"Sector.h"
+	<vector>
+
+1401743305 c:\users\eric\documents\github\alienheim\src\change.h
+	<SDL2/SDL.h>
+	<string>
+
+1401745832 c:\users\eric\documents\github\alienheim\src\sector.h
+	"Image.h"
+	<string>
+
+1401674017 c:\users\eric\documents\github\alienheim\src\character.h
+	"Weapon.h"
+
+1401752356 source:c:\users\eric\documents\github\alienheim\src\attack.cpp
+	"Attack.h"
+	"App.h"
+	"util.h"
+
+1401761258 c:\users\eric\documents\github\alienheim\src\util.h
+	<vector>
+	<string>
+	<map>
+	<iostream>
+	<cstdlib>
+	<cmath>
+	<SDL2/SDL.h>
+	"tinydir.h"
+
+1400795972 c:\users\eric\documents\github\alienheim\src\tinydir.h
+	<errno.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	<dirent.h>
+	<libgen.h>
+	<sys/stat.h>
+
+1401764985 source:c:\users\eric\documents\github\alienheim\src\attrchange.cpp
+	"AttrChange.h"
+	"App.h"
+	"util.h"
+	<cstdio>
+	<sstream>
+	<cmath>
+	<iostream>
+
+1401752374 c:\users\eric\documents\github\alienheim\src\attrchange.h
+	<string>
+	"Change.h"
+
+1401757025 source:c:\users\eric\documents\github\alienheim\src\bar.cpp
+	"Bar.h"
+	"App.h"
+	"util.h"
+	<algorithm>
+
+1401764535 source:c:\users\eric\documents\github\alienheim\src\battleevent.cpp
+	"BattleEvent.h"
+	"App.h"
+	"util.h"
+	<iostream>
+
+1401743519 c:\users\eric\documents\github\alienheim\src\battleevent.h
+	"Event.h"
+	"Alien.h"
+
+1402010059 source:c:\users\eric\documents\github\alienheim\src\battlescene.cpp
+	"BattleScene.h"
+	"util.h"
+	"App.h"
+	<sstream>
+	<cstdlib>
+
+1401816417 c:\users\eric\documents\github\alienheim\src\battlescene.h
+	"Scene.h"
+
+1400805421 source:c:\users\eric\documents\github\alienheim\src\behavior.cpp
+	"Behavior.h"
+
+1401758746 source:c:\users\eric\documents\github\alienheim\src\button.cpp
+	"Button.h"
+	"App.h"
+	<iostream>
+
+1401743333 source:c:\users\eric\documents\github\alienheim\src\change.cpp
+	"Change.h"
+
+1401746381 source:c:\users\eric\documents\github\alienheim\src\changeevent.cpp
+	"ChangeEvent.h"
+	"App.h"
+
+1401743826 c:\users\eric\documents\github\alienheim\src\changeevent.h
+	"Event.h"
+	<vector>
+
+1401763185 source:c:\users\eric\documents\github\alienheim\src\character.cpp
+	"Character.h"
+	"App.h"
+
+1401758509 source:c:\users\eric\documents\github\alienheim\src\charactercreation.cpp
+	"CharacterCreation.h"
+	"App.h"
+
+1401673133 c:\users\eric\documents\github\alienheim\src\charactercreation.h
+	"Scene.h"
+
+1401749358 source:c:\users\eric\documents\github\alienheim\src\choice.cpp
+
+1401753483 source:c:\users\eric\documents\github\alienheim\src\database.cpp
+	"DataBase.h"
+	"TitleScreen.h"
+	"MainMenu.h"
+	"Options.h"
+	"CharacterCreation.h"
+	"ShelterMenu.h"
+	"EventScene.h"
+	"BattleScene.h"
+	"GameOverScene.h"
+	"AttrChange.h"
+	"MaxAttrChange.h"
+	"WeaponChange.h"
+	"SectorChange.h"
+	"ChangeEvent.h"
+	"BattleEvent.h"
+	"DataFile.h"
+	"util.h"
+	<iostream>
+	<fstream>
+
+1401436114 c:\users\eric\documents\github\alienheim\src\titlescreen.h
+	"Scene.h"
+
+1401414565 c:\users\eric\documents\github\alienheim\src\mainmenu.h
+	"Scene.h"
+
+1401754066 c:\users\eric\documents\github\alienheim\src\options.h
+	"Scene.h"
+
+1401745274 c:\users\eric\documents\github\alienheim\src\sheltermenu.h
+	"Scene.h"
+
+1400818704 c:\users\eric\documents\github\alienheim\src\eventscene.h
+	"Scene.h"
+
+1401408179 c:\users\eric\documents\github\alienheim\src\gameoverscene.h
+	"Scene.h"
+
+1401743874 c:\users\eric\documents\github\alienheim\src\maxattrchange.h
+	<string>
+	"AttrChange.h"
+
+1401387649 c:\users\eric\documents\github\alienheim\src\weaponchange.h
+	"Change.h"
+
+1401745612 c:\users\eric\documents\github\alienheim\src\sectorchange.h
+	"Change.h"
+	"Sector.h"
+
+1401593877 c:\users\eric\documents\github\alienheim\src\datafile.h
+	<fstream>
+	<string>
+	<queue>
+	<sstream>
+
+1401594421 source:c:\users\eric\documents\github\alienheim\src\datafile.cpp
+	"DataFile.h"
+	<cstring>
+	<iostream>
+
+1401564604 source:c:\users\eric\documents\github\alienheim\src\effect.cpp
+	"Effect.h"
+
+1401571493 source:c:\users\eric\documents\github\alienheim\src\effectinstance.cpp
+	"EffectInstance.h"
+
+1401743443 source:c:\users\eric\documents\github\alienheim\src\event.cpp
+	"Event.h"
+
+1401758530 source:c:\users\eric\documents\github\alienheim\src\eventscene.cpp
+	"EventScene.h"
+	"ChangeEvent.h"
+	"App.h"
+	"util.h"
+	<iostream>
+
+1401758558 source:c:\users\eric\documents\github\alienheim\src\gameoverscene.cpp
+	"GameOverScene.h"
+	"App.h"
+	"util.h"
+	<sstream>
+	<iostream>
+
+1401564717 source:c:\users\eric\documents\github\alienheim\src\image.cpp
+	"Image.h"
+	<SDL2/SDL_image.h>
+	<iostream>
+	"App.h"
+
+1400800111 source:c:\users\eric\documents\github\alienheim\src\label.cpp
+	"Label.h"
+
+1402010286 source:c:\users\eric\documents\github\alienheim\src\main.cpp
+	"App.h"
+	<sstream>
+
+1401764743 source:c:\users\eric\documents\github\alienheim\src\mainmenu.cpp
+	"MainMenu.h"
+	"App.h"
+
+1401288554 source:c:\users\eric\documents\github\alienheim\src\maxattrchange.cpp
+	"MaxAttrChange.h"
+	"App.h"
+	<cstdio>
+	<sstream>
+	<cmath>
+
+1401568837 source:c:\users\eric\documents\github\alienheim\src\object.cpp
+	"Object.h"
+
+1401758798 source:c:\users\eric\documents\github\alienheim\src\options.cpp
+	"Options.h"
+	"App.h"
+	"util.h"
+	<iostream>
+
+1400798042 source:c:\users\eric\documents\github\alienheim\src\picture.cpp
+	"Picture.h"
+
+1401758181 source:c:\users\eric\documents\github\alienheim\src\scene.cpp
+	"Scene.h"
+	<iostream>
+
+1401747183 source:c:\users\eric\documents\github\alienheim\src\sector.cpp
+	"Sector.h"
+	"App.h"
+	<algorithm>
+
+1401747295 source:c:\users\eric\documents\github\alienheim\src\sectorchange.cpp
+	"SectorChange.h"
+	"App.h"
+	"util.h"
+
+1401758597 source:c:\users\eric\documents\github\alienheim\src\sheltermenu.cpp
+	"ShelterMenu.h"
+	"App.h"
+	"util.h"
+	<sstream>
+
+1401662374 source:c:\users\eric\documents\github\alienheim\src\titlescreen.cpp
+	"TitleScreen.h"
+	"App.h"
+	<iostream>
+
+1401756625 source:c:\users\eric\documents\github\alienheim\src\util.cpp
+	"util.h"
+	"App.h"
+
+1401743500 source:c:\users\eric\documents\github\alienheim\src\weapon.cpp
+	"Weapon.h"
+
+1401744494 source:c:\users\eric\documents\github\alienheim\src\weaponchange.cpp
+	"WeaponChange.h"
+	"App.h"
+	"util.h"
+

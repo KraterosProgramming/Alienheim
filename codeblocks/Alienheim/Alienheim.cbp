@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Alienheim" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Windows">
+				<Option output="../../bin/Alienheim" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="../../bin/" />
+				<Option object_output="obj/Windows/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++11" />
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="SDL2_ttf" />
+			<Add library="SDL2_mixer" />
+			<Add library="SDL2_image" />
+			<Add library="SDL2main" />
+			<Add library="SDL2" />
+		</Linker>
+		<Unit filename="../../src/Alien.cpp" />
+		<Unit filename="../../src/Alien.h" />
+		<Unit filename="../../src/App.cpp" />
+		<Unit filename="../../src/App.h" />
+		<Unit filename="../../src/Attack.cpp" />
+		<Unit filename="../../src/Attack.h" />
+		<Unit filename="../../src/AttrChange.cpp" />
+		<Unit filename="../../src/AttrChange.h" />
+		<Unit filename="../../src/Bar.cpp" />
+		<Unit filename="../../src/Bar.h" />
+		<Unit filename="../../src/BattleEvent.cpp" />
+		<Unit filename="../../src/BattleEvent.h" />
+		<Unit filename="../../src/BattleScene.cpp" />
+		<Unit filename="../../src/BattleScene.h" />
+		<Unit filename="../../src/Behavior.cpp" />
+		<Unit filename="../../src/Behavior.h" />
+		<Unit filename="../../src/Button.cpp" />
+		<Unit filename="../../src/Button.h" />
+		<Unit filename="../../src/Change.cpp" />
+		<Unit filename="../../src/Change.h" />
+		<Unit filename="../../src/ChangeEvent.cpp" />
+		<Unit filename="../../src/ChangeEvent.h" />
+		<Unit filename="../../src/Character.cpp" />
+		<Unit filename="../../src/Character.h" />
+		<Unit filename="../../src/CharacterCreation.cpp" />
+		<Unit filename="../../src/CharacterCreation.h" />
+		<Unit filename="../../src/Choice.cpp" />
+		<Unit filename="../../src/Choice.h" />
+		<Unit filename="../../src/DataBase.cpp" />
+		<Unit filename="../../src/DataBase.h" />
+		<Unit filename="../../src/DataFile.cpp" />
+		<Unit filename="../../src/DataFile.h" />
+		<Unit filename="../../src/Effect.cpp" />
+		<Unit filename="../../src/Effect.h" />
+		<Unit filename="../../src/EffectInstance.cpp" />
+		<Unit filename="../../src/EffectInstance.h" />
+		<Unit filename="../../src/Event.cpp" />
+		<Unit filename="../../src/Event.h" />
+		<Unit filename="../../src/EventScene.cpp" />
+		<Unit filename="../../src/EventScene.h" />
+		<Unit filename="../../src/GameOverScene.cpp" />
+		<Unit filename="../../src/GameOverScene.h" />
+		<Unit filename="../../src/Image.cpp" />
+		<Unit filename="../../src/Image.h" />
+		<Unit filename="../../src/Label.cpp" />
+		<Unit filename="../../src/Label.h" />
+		<Unit filename="../../src/MainMenu.cpp" />
+		<Unit filename="../../src/MainMenu.h" />
+		<Unit filename="../../src/MaxAttrChange.cpp" />
+		<Unit filename="../../src/MaxAttrChange.h" />
+		<Unit filename="../../src/Object.cpp" />
+		<Unit filename="../../src/Object.h" />
+		<Unit filename="../../src/Options.cpp" />
+		<Unit filename="../../src/Options.h" />
+		<Unit filename="../../src/Picture.cpp" />
+		<Unit filename="../../src/Picture.h" />
+		<Unit filename="../../src/Scene.cpp" />
+		<Unit filename="../../src/Scene.h" />
+		<Unit filename="../../src/Sector.cpp" />
+		<Unit filename="../../src/Sector.h" />
+		<Unit filename="../../src/SectorChange.cpp" />
+		<Unit filename="../../src/SectorChange.h" />
+		<Unit filename="../../src/ShelterMenu.cpp" />
+		<Unit filename="../../src/ShelterMenu.h" />
+		<Unit filename="../../src/TitleScreen.cpp" />
+		<Unit filename="../../src/TitleScreen.h" />
+		<Unit filename="../../src/Weapon.cpp" />
+		<Unit filename="../../src/Weapon.h" />
+		<Unit filename="../../src/WeaponChange.cpp" />
+		<Unit filename="../../src/WeaponChange.h" />
+		<Unit filename="../../src/main.cpp" />
+		<Unit filename="../../src/tinydir.h" />
+		<Unit filename="../../src/util.cpp" />
+		<Unit filename="../../src/util.h" />
+		<Unit filename="../../src/version.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
